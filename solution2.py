@@ -13,5 +13,7 @@ def is_balanced(expression):
     return len(stack) == 0
 
 # Example Usage:
+
+
 expr = "{[()()]}"
 print("Balanced" if is_balanced(expr) else "Not Balanced")
